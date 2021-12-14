@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+    <title>پیامک‌ها</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="user-sms.css" />
+    <link type="text/css" rel="stylesheet" href="datepicker/css/persianDatePicker-default.css" />
+    <link rel="stylesheet" href="user-fines.css">
+    <script type="text/javascript" src="datepicker/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="datepicker/js/persianDatePicker.js"></script>
+    <script type="text/javascript">
+        $(function() {
+        $("#simpleText, #simpleLabel").persianDatepicker({});
+        $("#startdate, #enddate").persianDatepicker({selectedBefore:true});    
+	    $("#alwaysShow").persianDatepicker({alwaysShow:true});                
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <a class="a2" href="D:\IUST\DB Lab\Front\index\index.html">صفحه اول</a>
+        <a class="a3" href="#">مشخصات</a>
+        <a class="a3" href="#">ارتباط با ما</a>
+        <a class="a3" href="D:\IUST\DB Lab\Front\user-dashboard\user-dashboard.html">داشبورد</a>
+    </nav>
+    <div class="container">
+        <div class="subcontainer">
+            <div class="datepickerrow">
+                <div class="dateitem">
+                    <h4>ابتدای بازه زمانی: </h4>
+                    <input type="text" id="startdate" placeholder="..." />
+                </div>
+                <div class="dateitem">
+                    <h4>انتهای بازه زمانی: </h4>
+                    <input type="text" id="enddate" placeholder="..." />
+                </div>
+                <a class="send" href="#">مشاهده</a>
+            </div>
+            <div class="item">
+                <h3>شماره پیامک: ۲۶۷۵۳۳۵</h3>
+                <p>مالک محترم خودرو پژو ۴۰۵ خاکستری جریمه‌ای به شماره ۷۸۲۳۴۹۲۳۸۷ برای شما ثبت شده است. لطفا جهت پرداخت به پیشخوان مراجعه کنید</p>
+            </div>
+            <div class="item">
+                <h3>شماره پیامک: ۲۶۷۵۳۳۵</h3>
+                <p>مالک محترم خودرو پژو ۴۰۵ خاکستری جریمه‌ای به شماره ۷۸۲۳۴۹۲۳۸۷ برای شما ثبت شده است. لطفا جهت پرداخت به پیشخوان مراجعه کنید</p>
+            </div>
+            <div class="item">
+                <h3>شماره پیامک: ۲۶۷۵۳۳۵</h3>
+                <p>مالک محترم خودرو پژو ۴۰۵ خاکستری جریمه‌ای به شماره ۷۸۲۳۴۹۲۳۸۷ برای شما ثبت شده است. لطفا جهت پرداخت به پیشخوان مراجعه کنید</p>
+            </div>
+            <div class="item">
+                <h3>شماره پیامک: ۲۶۷۵۳۳۵</h3>
+                <p>مالک محترم خودرو پژو ۴۰۵ خاکستری جریمه‌ای به شماره ۷۸۲۳۴۹۲۳۸۷ برای شما ثبت شده است. لطفا جهت پرداخت به پیشخوان مراجعه کنید</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
